@@ -1,3 +1,7 @@
 from django.db import models
 
-# Create your models here.
+class Weapon(models.Model):
+    power = models.IntegerField()
+    rarity = models.CharField()
+    value = models.IntegerField()
+
